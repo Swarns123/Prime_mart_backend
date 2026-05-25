@@ -6,6 +6,7 @@ class ProductCreate(BaseModel):
     category: str
     description: str
     price: float
+    
 
 class ProductBase(BaseModel):
     id: int
